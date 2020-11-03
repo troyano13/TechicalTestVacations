@@ -12,14 +12,8 @@ export function create_new_user(datatable) {
     let day = element.date_born.substring(0,2);
     let month =  element.date_born.substring(3,5);
     let year =  element.date_born.substring(6,10);
-    console.log("888888888888888888888888888888888888888888",day,month,year);
- // cy.get('option').eq(0).should('contain', year).select()
- // cy.get('#employee_start_working_on_1i').click();
-  //   cy.get("#employee_start_working_on_2i").type(month);
-  //  cy.get("#employee_start_working_on_3i").type(day);
-  
-     
-  });
+    // cy.get('option').eq(0).should('contain', year).select()
+   });
   
 }
 export function btn_crete_user() {
